@@ -33,11 +33,18 @@ body {
 
 .click {
   display: inline-block;
+  padding: .5rem 1rem 1.5rem;
 }
 
-.split {
-  padding: 1rem;
+.split h1, p {
+  padding: 0 1rem;
+
 }
+
+.split img {
+  max-width: 600px;
+}
+
 p {
   margin-top: 0;
 }
@@ -82,8 +89,16 @@ p:first-of-type {
 
   .split {
     display: inline-block;
-    width: 45%;
+    width: 49%;
     vertical-align: middle;
+  }
+  
+  .split p {
+    padding-right: 1.20rem;
+  }
+  
+  .split {
+    padding-top: 1rem;
   }
 }
 
@@ -95,7 +110,25 @@ p:first-of-type {
   }
 
   .split {
-    width: 45%;
+    width: 49%;
+    padding-top: 0;
+  }
+  
+  .split h1 {
+    padding-top: 2rem;
+  }
+  
+  .split h1, p {
+    padding-left: .5rem;
+  }
+  
+  .click {
+    padding-left: .5rem;
+  }
+  
+  .split img {
+    padding-top: 1rem;
+    width: 105%;
   }
 
   section {
@@ -109,18 +142,13 @@ p:first-of-type {
     font-size: 130%;
   }
 
-  .split {
-    width: 35%;
-  }
-
   section {
     text-align: center;
   }
-
-  h1, p {
+  
+  .split {
+    width: 35%;
     text-align: left;
   }
 
-  .btn {
-    float: left;
-  }
+  
