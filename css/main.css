@@ -31,6 +31,10 @@ body {
   margin: 0;
 }
 
+.click {
+  display: inline-block;
+}
+
 .split {
   padding: 1rem;
 }
@@ -116,7 +120,7 @@ p:first-of-type {
   h1, p {
     text-align: left;
   }
-  
+
   .btn {
     float: left;
   }
